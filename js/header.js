@@ -359,7 +359,8 @@ window.addEventListener('DOMContentLoaded', function () {
     { name: 'TikTok', icon: '/data/icons/tiktok.webp', url: 'https://www.tiktok.com/@phsrambots' },
     { name: 'Instagram', icon: '/data/icons/instagram.webp', url: 'https://www.instagram.com/rambots_6548' },
     { name: 'Facebook', icon: '/data/icons/facebook.webp', url: 'https://www.facebook.com/phsrambots' },
-    { name: 'GitHub', icon: '/data/icons/github.webp', url: 'https://github.com/frc6548' }
+    { name: 'GitHub', icon: '/data/icons/github.webp', url: 'https://github.com/frc6548' },
+    { name: 'The Blue Alliance', icon: '/data/icons/thebluealliance.svg', url: 'https://www.thebluealliance.com/team/6548' }
   ];
 
   socials.forEach(function(social) {

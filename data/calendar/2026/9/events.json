@@ -20,6 +20,15 @@
     "description": "This is one of the many craft shows in summer put on by the Village Fresh Market every couple weeks. Come on down to enjoy some fun bands and STEAM activities."
   },
   {
+    "id": "Perry-Rambots-Glow-Event-2026-09-19",
+    "title": "Perry Rambots Glow Event",
+    "date": "2026-09-19",
+    "start": "19:00",
+    "end": "20:00",
+    "location": "Perry High School, Perry, MI 48872",
+    "description": "The Perry Rambots Robotics team is hosting a Glow Event! Registration is at 7:00 PM and the round starts at 8:00 PM. Cost is $25 per person, or $40 for a premium pass which includes a UV flashlight and glow-in-the-dark tape for your discs (if buying the premium pass, please let us know at least 10 days in advance). The course includes the 9 holes at Perry High School plus 11 additional holes we've added to make the event more fun. Trophy prizes for 1st, 2nd, and 3rd place, plus separate prizes for longest drive and closest to the pin. Link is in our bio for registration: https://udisc.com/events/perry-fest-2026-glow-disc-event-5vJ6aQ/about"
+  },
+  {
     "id": "West-Michigan's-Girls-Robotics-Competition",
     "title": "West Michigan's Girls Robotics Competition",
     "date": "2026-09-26",
