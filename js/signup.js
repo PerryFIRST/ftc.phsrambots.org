@@ -5,27 +5,17 @@ window.addEventListener('DOMContentLoaded', function () {
   const FORM_BASE = 'https://docs.google.com/forms/d/e/1FAIpQLSeLOlpVbhx2bNZ5GRmNowvA6EUVA92Zo077sijcan1yn300TQ/viewform';
 
   const FIELD_MAP = {
-    frc: {
-      program: 'entry.1699233058',
-      programValue: 'FRC  (Grades 7-12th)',
-      name: 'entry.573650983',
-      email: 'entry.1010324525',
-      phone: 'entry.238358888'
-    },
-    ftc: {
-      program: 'entry.1699233058',
-      programValue: null,
-      name: 'entry.753107151',
-      email: 'entry.505493070',
-      phone: 'entry.850285063'
-    }
+    program: 'entry.1699233058',
+    programValue: 'FTC (Grades 7-8th)',
+    name: 'entry.753107151',
+    email: 'entry.505493070',
+    phone: 'entry.850285063'
   };
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    const program = form.querySelector('input[name="program"]:checked').value;
-    const map = FIELD_MAP[program];
+    const map = FIELD_MAP;
     const name = document.getElementById('signup-name').value.trim();
     const email = document.getElementById('signup-email').value.trim();
     const phone = document.getElementById('signup-phone').value.trim();

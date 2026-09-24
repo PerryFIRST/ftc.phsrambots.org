@@ -100,6 +100,15 @@
     var arch = el('awards-arch');
     if (!arch) return;
     var awards = data.awards || [];
+
+    if (awards.length === 0) {
+      var empty = document.createElement('p');
+      empty.className = 'awards-empty';
+      empty.textContent = "We haven't brought home an award yet, but we're working on it - check back after our next event!";
+      arch.appendChild(empty);
+      return;
+    }
+
     var mid = (awards.length - 1) / 2;
     awards.forEach(function (award, i) {
       arch.appendChild(buildCard(award, i - mid));

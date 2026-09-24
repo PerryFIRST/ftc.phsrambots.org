@@ -1,18 +1,18 @@
 {
   "yearsOfCompetition": {
-    "value": "9",
+    "value": "10",
     "label": "Years of Competition"
   },
-  "worldChampionships": {
-    "value": "3x",
-    "label": "World Championship"
+  "eventsAttended": {
+    "value": "3",
+    "label": "Events Attended"
   },
   "teamMembers": {
-    "value": "16",
+    "value": "4",
     "label": "Team Members"
   },
   "communityPartners": {
-    "value": "50+",
+    "value": "0",
     "label": "Community Partners"
   }
 }

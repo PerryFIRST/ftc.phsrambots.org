@@ -5,21 +5,13 @@
     "fg":"/data/slideshow/signup fore.webp",
     "alt": "Screenshot of Signup Form",
     "header": "Join Us",
-    "description": "Sign up to join our FRC and upcoming FTC teams for the 2026-2027 season",
-    "active": true
-  },
-  {
-    "href": "https://udisc.com/events/perry-fest-2026-glow-disc-event-5vJ6aQ/about",
-    "img": "/data/slideshow/discgolf.webp",
-    "alt": "Perry Fest 2026 Glow Disc Event",
-    "header": "Perry Fest 2026 Glow Disc Event",
-    "description": "The Rambler Robotics Robotics team is hosting a 20-hole Glow disc golf event on September 19th at Perry Middle School, featuring $25 basic and $40 premium entry options, prizes for top finishers, and side contests for longest drive and closest to the pin.",
+    "description": "Sign up to join our FTC team for the 2026-2027 season",
     "active": true
   },
   {
     "href": "https://ftcscout.org/teams/12337",
-    "img": "/data/slideshow/blue.webp",
-    "fg":"/data/slideshow/blue fore.webp",
+    "img": "/data/slideshow/robot back.png",
+    "fg":"/data/slideshow/robot fore.png",
     "alt": "Photo of Robot in Reefscape 2025",
     "header": "FTCScout",
     "description": "Visit our FTCScout page to see how we perform and play",

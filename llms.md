@@ -36,7 +36,7 @@ A major portion of the site highlights:
 
 * Annual competition robots and iterations
 * Technical features such as drive systems, mechanisms, and game-specific designs
-* Performance summaries from competitions, including district, state, and world events
+* Performance summaries from competitions, including qualifier and league events
 
 ---
 
@@ -45,8 +45,7 @@ A major portion of the site highlights:
 The team competes in the **FIRST Tech Competition**, which involves:
 
 * Designing and building robots for a new game each season
-* Participating in FIRST in Michigan district events and the State Championship
-* Qualifying for and attending world championships (multiple appearances)
+* Participating in FTC qualifier events around Michigan
 
 ---
 
@@ -60,11 +59,10 @@ The site emphasizes community involvement, including:
 
 ---
 
-### 5. Sponsorship & Funding
+### 5. Funding
 
 The team is supported by:
 
-* Local businesses and organizations
 * Community donations
 * Fundraising initiatives
 
@@ -87,7 +85,7 @@ The site functions as:
 * **Informational hub** for team details and history
 * **Showcase** of engineering projects and competition performance
 * **Recruitment tool** for students and mentors
-* **Transparency portal** for sponsors and supporters
+* **Transparency portal** for supporters and donors
 * **Community engagement platform**
 
 ---
@@ -96,9 +94,8 @@ The site functions as:
 
 * Students interested in robotics/STEM
 * Parents and educators
-* Sponsors and local businesses
-* FIRST Robotics community members
-* Event organizers and partner teams
+* FIRST Tech Competition community members
+* Event organizers and other FTC teams
 
 ---
 
@@ -114,4 +111,4 @@ The site functions as:
 
 ## Summary
 
-phsrambots.org represents a student-led middle school robotics team that blends engineering, competition, and community involvement. It documents the lifecycle of competitive robots, highlights achievements, and showcases how a local team contributes to the broader FIRST Robotics ecosystem while fostering STEM skills in students.
+phsrambots.org represents a student-led middle school robotics team that blends engineering, competition, and community involvement. It documents the lifecycle of competitive robots, highlights achievements, and showcases how a local FTC team contributes to the broader FIRST ecosystem while fostering STEM skills in students.

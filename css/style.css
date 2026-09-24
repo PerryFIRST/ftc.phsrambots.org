@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #ff4040;
+    --color-primary: #5170ff;
     --color-accent: #4dd2ff;
     --color-success: #6bd66b;
     --mouse-x: 50vw;
@@ -11,12 +11,12 @@
 }
 
 @keyframes bodyBreath {
-    0%, 100% { background-color: #ff4040; }
-    50% { background-color: #d42020; }
+    0%, 100% { background-color: #5170ff; }
+    50% { background-color: #435dd4; }
 }
 
 body {
-    background-color: #ff4040;
+    background-color: #5170ff;
     /* Subtle grid on top of background-color; spotlight follows --mouse-x/--mouse-y set by JS */
     background-image:
         radial-gradient(900px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh), rgba(255, 220, 180, 0.08), transparent 45%),
@@ -233,17 +233,17 @@ html, body {
 }
 
 @keyframes statusGlow {
-    0%, 100% { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 24px rgba(255, 64, 64, 0.15); }
-    50% { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 50px rgba(255, 64, 64, 0.45), 0 0 0 1px rgba(255,64,64,0.25); }
+    0%, 100% { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 24px rgba(81, 112, 255, 0.15); }
+    50% { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 50px rgba(81, 112, 255, 0.45), 0 0 0 1px rgba(81,112,255,0.25); }
 }
 
 .status-card {
     background: linear-gradient(135deg, rgba(45, 8, 8, 0.9) 0%, rgba(110, 25, 25, 0.9) 100%);
-    border: 1px solid rgba(255, 64, 64, 0.3);
+    border: 1px solid rgba(81, 112, 255, 0.3);
     border-radius: 16px;
     padding: 30px;
     backdrop-filter: blur(6px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 24px rgba(255, 64, 64, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 24px rgba(81, 112, 255, 0.15);
     animation: fadeInUp 1s ease-out, statusGlow 3s ease-in-out 1s infinite;
     transition: transform 0.3s ease;
 }
@@ -714,7 +714,7 @@ a {
     height: 16px;
     padding: 0 4px;
     border-radius: 999px;
-    background: var(--color-primary, #ff4040);
+    background: var(--color-primary, #5170ff);
     color: #fff;
     font-size: 11px;
     font-weight: 700;
@@ -1292,7 +1292,7 @@ a {
 }
 
 .sponsorheader {
-    color: #ff4040;
+    color: #5170ff;
     font-size: 48px;
     font-weight: bold;
     margin: 0 0 15px 0;
@@ -1356,7 +1356,7 @@ a {
 /* Footer Styles */
 .footer {
     width: 100%;
-    background-color: #3f1616;
+    background-color: #142658;
     color: white;
     padding: 40px 0;
     margin-top: auto;
@@ -1386,7 +1386,7 @@ a {
 }
 
 .footer-left a {
-    color: #ff4040;
+    color: #5170ff;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -1419,13 +1419,13 @@ a {
     justify-content: center;
     width: 45px;
     height: 45px;
-    background-color: #ff4040;
+    background-color: #5170ff;
     color: white;
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
     transition: all 0.3s;
-    border: 2px solid #ff4040;
+    border: 2px solid #5170ff;
 }
 
 .social-icon:hover {
@@ -1520,7 +1520,7 @@ a {
 /* Privacy modal and footer helper styles */
 .footer { padding-bottom: 24px; }
 .footer-left p.privacy-link { margin: 8px 0; }
-.footer-left p.privacy-link a, .footer-left p.privacy-link a:visited { color: #ff4040; text-decoration: none; }
+.footer-left p.privacy-link a, .footer-left p.privacy-link a:visited { color: #5170ff; text-decoration: none; }
 .footer-left p.privacy-link a:hover { text-decoration: underline; }
 .privacy-modal{ position: fixed; inset: 0; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); z-index: 120000 }
 .privacy-modal.open{ display: flex }
@@ -1717,6 +1717,15 @@ a {
     perspective: 1400px;
 }
 
+.awards-empty {
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    color: rgba(255, 255, 255, 0.75);
+    font-style: italic;
+}
+
 .award-card {
     position: relative;
     flex: 1 1 150px;
@@ -1749,7 +1758,7 @@ a {
 .award-card:focus-visible {
     transform: translateY(calc(var(--arch-y, 0px) - 16px)) rotate(var(--arch-rotate, 0deg)) scale(1.04);
     border-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), 0 0 30px rgba(255, 64, 64, 0.25);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), 0 0 30px rgba(81, 112, 255, 0.25);
     z-index: 5;
     outline: none;
 }
@@ -1759,7 +1768,7 @@ a {
     max-width: 230px;
     height: 280px;
     z-index: 3;
-    background: linear-gradient(135deg, rgba(255, 211, 92, 0.16) 0%, rgba(255, 64, 64, 0.12) 100%);
+    background: linear-gradient(135deg, rgba(255, 211, 92, 0.16) 0%, rgba(81, 112, 255, 0.12) 100%);
     border: 1px solid rgba(255, 211, 92, 0.45);
     box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35), 0 0 40px rgba(255, 211, 92, 0.18);
 }
@@ -1979,7 +1988,7 @@ a {
 
     body {
         animation: none !important;
-        background-color: #ff4040 !important;
+        background-color: #5170ff !important;
     }
 
     /* Sponsor marquee keeps scrolling even with reduced motion enabled */
