@@ -24,7 +24,6 @@ window.addEventListener('DOMContentLoaded', function () {
       "https://ftc.phsrambots.org",
       "https://ftc.phsrambots.org/links",
       "https://ftc.phsrambots.org/calendar",
-      "https://ftc.phsrambots.org/gallery",
       "https://ftcscout.org/teams/12337",
       "https://www.youtube.com/@PHSRambots",
       "https://www.instagram.com/rambots_12337",
@@ -59,7 +58,6 @@ window.addEventListener('DOMContentLoaded', function () {
       "https://ftc.phsrambots.org",
       "https://ftc.phsrambots.org/links",
       "https://ftc.phsrambots.org/calendar",
-      "https://ftc.phsrambots.org/gallery",
       "https://ftcscout.org/teams/12337",
       "https://www.youtube.com/@PHSRambots",
       "https://www.instagram.com/rambots_12337",
@@ -115,7 +113,6 @@ window.addEventListener('DOMContentLoaded', function () {
   var items = [
     { text: 'Home', href: '/' },
     { text: 'Calendar', href: '/calendar' },
-    { text: 'Gallery', href: '/gallery' },
     { text: 'Awards', href: '/awards' },
     { text: 'Donations', href: '/donate' },
     { text: 'Links', href: '/links' },

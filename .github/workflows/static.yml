@@ -6,10 +6,6 @@ on:
   push:
     branches: ["main"]
 
-  # Keep the gallery manifest (see below) fresh even when nothing is pushed
-  schedule:
-    - cron: "0 12 * * *"
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 

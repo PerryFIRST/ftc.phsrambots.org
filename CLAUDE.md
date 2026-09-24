@@ -20,7 +20,7 @@ framework, or package manager - every file is served as-is.
 
 ## Structure
 
-- `index.html`, `gallery/`, `donate/`, `links/`, `team/`, `calendar/`,
+- `index.html`, `donate/`, `links/`, `team/`, `calendar/`,
   `robots/2025-guppy/`, `opt-out/` - top-level pages (each its own
   `index.html`).
 - `css/style.css` - single global stylesheet for the whole site.
