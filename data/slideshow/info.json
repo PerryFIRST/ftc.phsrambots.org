@@ -18,15 +18,6 @@
     "active": true
   },
   {
-    "href": "https://www.youtube.com/watch?v=1FV8Z4ZVC18",
-    "img": "/data/slideshow/realistic space.webp",
-    "fg": "/data/slideshow/realistic space fore.webp",
-    "alt": "ARTEMIS Robot",
-    "header": "2026: ARTEMIS II",
-    "description": "Check out our 2026 robot, Artemis II",
-    "active": true
-  },
-  {
     "href": "https://www.youtube.com/playlist?list=PLMiwgMvPJVNyQyo3v6IfAfSgRb1O_aLjw",
     "img": "/data/slideshow/match.webp",
     "fg": "/data/slideshow/match fore.webp",
@@ -42,14 +33,6 @@
     "alt": "YouTube Channel",
     "header": "YouTube Channel",
     "description": "Subscribe to our YouTube channel for match videos and highlights",
-    "active": true
-  },
-  {
-    "href": "/team",
-    "img": "/data/slideshow/team.webp",
-    "alt": "Team Photo",
-    "header": "The Team",
-    "description": "Learn more about our team members",
     "active": true
   }
 ]
