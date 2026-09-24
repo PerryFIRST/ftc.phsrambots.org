@@ -1,1 +1,0 @@
-photos for gallery

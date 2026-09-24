@@ -44,7 +44,7 @@ jobs:
         run: |
           mkdir -p data/gallery
           if curl -sf -H "Authorization: Bearer $GH_TOKEN" \
-              "https://api.github.com/repos/frc6548/phsrambots.org/contents/data/gallery" \
+              "https://api.github.com/repos/frc12337/phsrambots.org/contents/data/gallery" \
               -o /tmp/gallery-raw.json; then
             jq '[.[] | select(.type=="file") | select(.name | test("\\.(jpe?g|png|gif|webp)$"; "i")) | {name: .name, download_url: .download_url}]' \
               /tmp/gallery-raw.json > data/gallery/manifest.json

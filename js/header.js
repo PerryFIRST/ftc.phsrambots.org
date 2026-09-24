@@ -14,22 +14,22 @@ window.addEventListener('DOMContentLoaded', function () {
   injectSchema('ld-org', {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Perry RAMBOTS",
-    "alternateName": "FRC Team 6548",
-    "url": "https://phsrambots.org",
-    "logo": "https://phsrambots.org/logo.webp",
-    "description": "Perry RAMBOTS is FIRST Robotics Competition Team 6548, a high school robotics team building competitive robots, developing STEM skills, and competing since 2017.",
+    "name": "Rambler Robotics",
+    "alternateName": "FRC Team 12337",
+    "url": "https://ftc.phsrambots.org",
+    "logo": "https://ftc.phsrambots.org/logo.webp",
+    "description": "Rambler Robotics is FIRST Tech Competition Team 12337, a middle school robotics team building competitive robots, developing STEM skills, and competing since 2017.",
     "foundingDate": "2017",
     "sameAs": [
-      "https://phsrambots.org",
-      "https://phsrambots.org/links",
-      "https://phsrambots.org/calendar",
-      "https://phsrambots.org/gallery",
-      "https://www.thebluealliance.com/team/6548",
+      "https://ftc.phsrambots.org",
+      "https://ftc.phsrambots.org/links",
+      "https://ftc.phsrambots.org/calendar",
+      "https://ftc.phsrambots.org/gallery",
+      "https://ftcscout.org/teams/12337",
       "https://www.youtube.com/@PHSRambots",
-      "https://www.instagram.com/rambots_6548",
+      "https://www.instagram.com/rambots_12337",
       "https://www.facebook.com/phsrambots",
-      "https://github.com/frc6548",
+      "https://github.com/frc12337",
       "https://www.tiktok.com/@phsrambots"
     ]
   });
@@ -37,34 +37,34 @@ window.addEventListener('DOMContentLoaded', function () {
   injectSchema('ld-website', {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Perry RAMBOTS",
-    "url": "https://phsrambots.org"
+    "name": "Rambler Robotics",
+    "url": "https://ftc.phsrambots.org"
   });
 
   injectSchema('ld-localbusiness', {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Perry RAMBOTS",
-    "image": "https://phsrambots.org/data/icon-white.webp",
-    "url": "https://phsrambots.org",
+    "name": "Rambler Robotics",
+    "image": "https://ftc.phsrambots.org/data/icon-white.webp",
+    "url": "https://ftc.phsrambots.org",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Perry High School",
+      "streetAddress": "Perry Middle School",
       "addressLocality": "Perry",
       "addressRegion": "MI",
       "postalCode": "48872",
       "addressCountry": "US"
     },
     "sameAs": [
-      "https://phsrambots.org",
-      "https://phsrambots.org/links",
-      "https://phsrambots.org/calendar",
-      "https://phsrambots.org/gallery",
-      "https://www.thebluealliance.com/team/6548",
+      "https://ftc.phsrambots.org",
+      "https://ftc.phsrambots.org/links",
+      "https://ftc.phsrambots.org/calendar",
+      "https://ftc.phsrambots.org/gallery",
+      "https://ftcscout.org/teams/12337",
       "https://www.youtube.com/@PHSRambots",
-      "https://www.instagram.com/rambots_6548",
+      "https://www.instagram.com/rambots_12337",
       "https://www.facebook.com/phsrambots",
-      "https://github.com/frc6548",
+      "https://github.com/frc12337",
       "https://www.tiktok.com/@phsrambots"
     ]
   });
@@ -75,7 +75,7 @@ window.addEventListener('DOMContentLoaded', function () {
   var icon = document.createElement('img');
   icon.className = "siteicon";
   icon.src = "/data/icon.webp";
-  icon.alt = "Perry RAMBOTS Logo";
+  icon.alt = "Rambler Robotics Logo";
 
   var iconLink = document.createElement('a');
   iconLink.href = "/";
@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', function () {
   iconLink.appendChild(icon);
 
   var thetitle = document.createElement('h1');
-  thetitle.textContent = 'Perry RAMBOTS';
+  thetitle.textContent = 'Rambler Robotics';
   thetitle.className = 'sitetitle';
 
   var titleLink = document.createElement('a');
@@ -120,7 +120,7 @@ window.addEventListener('DOMContentLoaded', function () {
     { text: 'Donations', href: '/donate' },
     { text: 'Links', href: '/links' },
     { text: 'Sponsor Form', href: '/data/sponsors/form.pdf' },
-    { text: 'The Blue Alliance', href: 'https://www.thebluealliance.com/team/6548', target: '_blank' }
+    { text: 'FTCScout', href: 'https://ftcscout.org/teams/12337', target: '_blank' }
   ];
 
   items.forEach(function(it) {
@@ -303,7 +303,7 @@ window.addEventListener('DOMContentLoaded', function () {
   var emailLink = document.createElement('a');
   emailLink.className = 'email-link';
   emailLink.textContent = 'Loading...';
-  emailLink.href = 'https://phsrambots.org';
+  emailLink.href = 'https://ftc.phsrambots.org';
   emailPara.appendChild(emailLink);
   leftSection.appendChild(emailPara);
 
@@ -316,13 +316,13 @@ window.addEventListener('DOMContentLoaded', function () {
   addressPara.textContent = 'Perry, Michigan 48872';
   leftSection.appendChild(addressPara);
 
-  // Add Perry High School location with a maps link
+  // Add Perry Middle School location with a maps link
   var schoolPara = document.createElement('p');
   var schoolLink = document.createElement('a');
   schoolLink.href = 'https://perry.k12.mi.us/';
   schoolLink.target = '_blank';
   schoolLink.rel = 'noopener noreferrer';
-  schoolLink.textContent = 'Perry High School';
+  schoolLink.textContent = 'Perry Middle School';
   schoolPara.appendChild(schoolLink);
   leftSection.appendChild(schoolPara);
 
@@ -357,10 +357,10 @@ window.addEventListener('DOMContentLoaded', function () {
   var socials = [
     { name: 'YouTube', icon: '/data/icons/youtube.webp', url: 'https://www.youtube.com/@PHSRambots' },
     { name: 'TikTok', icon: '/data/icons/tiktok.webp', url: 'https://www.tiktok.com/@phsrambots' },
-    { name: 'Instagram', icon: '/data/icons/instagram.webp', url: 'https://www.instagram.com/rambots_6548' },
+    { name: 'Instagram', icon: '/data/icons/instagram.webp', url: 'https://www.instagram.com/rambots_12337' },
     { name: 'Facebook', icon: '/data/icons/facebook.webp', url: 'https://www.facebook.com/phsrambots' },
-    { name: 'GitHub', icon: '/data/icons/github.webp', url: 'https://github.com/frc6548' },
-    { name: 'The Blue Alliance', icon: '/data/icons/thebluealliance.svg', url: 'https://www.thebluealliance.com/team/6548' }
+    { name: 'GitHub', icon: '/data/icons/github.webp', url: 'https://github.com/frc12337' },
+    { name: 'FTCScout', icon: '/data/icons/ftcscout.svg', url: 'https://ftcscout.org/teams/12337' }
   ];
 
   socials.forEach(function(social) {

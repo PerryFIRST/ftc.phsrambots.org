@@ -26,7 +26,7 @@ def convert_images_to_webp(root_dir):
                     print(f"Failed to convert {filepath}: {e}")
 
 def main():
-    root_dir = "C:\\Users\\Robotics\\frc6548.github.io"
+    root_dir = "C:\\Users\\Robotics\\frc12337.github.io"
     print(f"Root directory: {root_dir}")
     convert_images_to_webp(root_dir)
     print("Conversion complete.")

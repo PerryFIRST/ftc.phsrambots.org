@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Photo Gallery - Perry RAMBOTS | High School FRC Team 6548</title>
-    <link rel="canonical" href="https://phsrambots.org" />
-<link rel="alternate" hreflang="en-US" href="https://phsrambots.org/" /><link rel="alternate" hreflang="x-default" href="https://phsrambots.org/" />
-<meta property="og:title" content="Photo Gallery - Perry RAMBOTS | High School FRC Team 6548">
-    <meta name="description" content="Browse our photo gallery to see behind-the-scenes moments, competition highlights, and team activities from Perry RAMBOTS, FRC Team 6548.">
-    <meta content="https://phsrambots.org/data/icon-white.webp" property="og:image"/>
+    <title>Photo Gallery - Rambler Robotics | Middle School FRC Team 12337</title>
+    <link rel="canonical" href="https://ftc.phsrambots.org" />
+<link rel="alternate" hreflang="en-US" href="https://ftc.phsrambots.org/" /><link rel="alternate" hreflang="x-default" href="https://ftc.phsrambots.org/" />
+<meta property="og:title" content="Photo Gallery - Rambler Robotics | Middle School FRC Team 12337">
+    <meta name="description" content="Browse our photo gallery to see behind-the-scenes moments, competition highlights, and team activities from Rambler Robotics, FRC Team 12337.">
+    <meta content="https://ftc.phsrambots.org/data/icon-white.webp" property="og:image"/>
     <meta content="#ff4040" data-react-helmet="true" name="theme-color"/>
 
     <link rel="icon" type="image/png" href="/data/icon.webp" media="(prefers-color-scheme: light)">
@@ -155,7 +155,7 @@
                     if (!response.ok) throw new Error('no-manifest');
                     return response.json();
                 })
-                .catch(() => fetch('https://api.github.com/repos/frc6548/phsrambots.org/contents/data/gallery').then(r => r.json()))
+                .catch(() => fetch('https://api.github.com/repos/frc12337/phsrambots.org/contents/data/gallery').then(r => r.json()))
                 .then(data => {
                     const files = Array.isArray(data)
                         ? data.filter(file => (!file.type || file.type === 'file') && /\.(jpe?g|png|gif|webp)$/i.test(file.name))

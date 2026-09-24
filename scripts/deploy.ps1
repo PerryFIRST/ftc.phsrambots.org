@@ -1,6 +1,6 @@
 # =========================================================
 # PHS Rambots - New Machine Deployment Script
-# Usage (elevated PowerShell): irm https://phsrambots.org/deploy.ps1 | iex
+# Usage (elevated PowerShell): irm https://ftc.phsrambots.org/deploy.ps1 | iex
 # =========================================================
 
 # --- 0. Ensure running as Administrator ---
@@ -14,7 +14,7 @@ if (-not $isAdmin) {
         Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`""
     } else {
         # Running via irm | iex (no local file), re-launch the same way elevated
-        Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://phsrambots.org/scripts/deploy.ps1 | iex`""
+        Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://ftc.phsrambots.org/scripts/deploy.ps1 | iex`""
     }
     exit
 }
@@ -56,7 +56,7 @@ Write-Host "Reemo config written." -ForegroundColor Green
 
 # --- 2. Run WinUtil with pre-exported config ---
 Write-Host "Running WinUtil (apps, tweaks, DNS, Edge debloat, OOSU)..." -ForegroundColor Yellow
-$winutilConfig = "https://phsrambots.org/scripts/ctt.config.json"
+$winutilConfig = "https://ftc.phsrambots.org/scripts/ctt.config.json"
 & ([ScriptBlock]::Create((irm "https://christitus.com/win"))) -Config $winutilConfig
 
 # --- 3. Conditionally enable Ultimate Performance power plan ---

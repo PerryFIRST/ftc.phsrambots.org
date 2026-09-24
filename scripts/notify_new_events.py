@@ -11,7 +11,7 @@ import urllib.request
 from collections import defaultdict
 from datetime import datetime
 
-CALENDAR_URL = "https://phsrambots.org/calendar"
+CALENDAR_URL = "https://ftc.phsrambots.org/calendar"
 
 
 def git(*args):
@@ -91,8 +91,8 @@ def main():
                 "description": description,
                 "color": 16711680,
                 "author": {
-                    "name": "frc6548",
-                    "icon_url": "https://github.com/frc6548.png",
+                    "name": "frc12337",
+                    "icon_url": "https://github.com/frc12337.png",
                 },
             }
         ]

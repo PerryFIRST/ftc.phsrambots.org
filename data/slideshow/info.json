@@ -13,16 +13,16 @@
     "img": "/data/slideshow/discgolf.webp",
     "alt": "Perry Fest 2026 Glow Disc Event",
     "header": "Perry Fest 2026 Glow Disc Event",
-    "description": "The Perry Rambots Robotics team is hosting a 20-hole Glow disc golf event on September 19th at Perry High School, featuring $25 basic and $40 premium entry options, prizes for top finishers, and side contests for longest drive and closest to the pin.",
+    "description": "The Rambler Robotics Robotics team is hosting a 20-hole Glow disc golf event on September 19th at Perry Middle School, featuring $25 basic and $40 premium entry options, prizes for top finishers, and side contests for longest drive and closest to the pin.",
     "active": true
   },
   {
-    "href": "https://www.thebluealliance.com/team/6548",
+    "href": "https://ftcscout.org/teams/12337",
     "img": "/data/slideshow/blue.webp",
     "fg":"/data/slideshow/blue fore.webp",
     "alt": "Photo of Robot in Reefscape 2025",
-    "header": "The Blue Alliance",
-    "description": "Visit our blue alliance page to see how we perform and play",
+    "header": "FTCScout",
+    "description": "Visit our FTCScout page to see how we perform and play",
     "active": true
   },
   {

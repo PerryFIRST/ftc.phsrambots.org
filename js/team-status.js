@@ -81,13 +81,13 @@ window.addEventListener('DOMContentLoaded', function () {
       card.appendChild(next);
     }
 
-    if (status.tbaUrl) {
+    if (status.ftcscoutUrl) {
       const link = document.createElement('a');
-      link.className = 'status-tba-link';
-      link.href = status.tbaUrl;
+      link.className = 'status-ftcscout-link';
+      link.href = status.ftcscoutUrl;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
-      link.textContent = 'View on The Blue Alliance';
+      link.textContent = 'View on FTCScout';
       card.appendChild(link);
     }
 

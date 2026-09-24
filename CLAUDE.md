@@ -4,8 +4,8 @@ Guidance for Claude Code (and other AI assistants) working in this repository.
 
 ## Project overview
 
-This is the static website for **Perry RAMBOTS**, FIRST Robotics Competition
-Team 6548 (phsrambots.org). It is plain HTML/CSS/JS with no build step,
+This is the static website for **Rambler Robotics**, FIRST Tech Competition
+Team 12337 (ftc.phsrambots.org). It is plain HTML/CSS/JS with no build step,
 framework, or package manager - every file is served as-is.
 
 ## Deployment

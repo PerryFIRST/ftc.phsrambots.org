@@ -316,7 +316,7 @@ html, body {
     color: #fff;
 }
 
-.status-tba-link {
+.status-ftcscout-link {
     display: inline-block;
     margin-top: 4px;
     padding: 10px 22px;
@@ -329,7 +329,7 @@ html, body {
     transition: background 150ms ease, box-shadow 150ms ease;
 }
 
-.status-tba-link:hover {
+.status-ftcscout-link:hover {
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.3);
 }
