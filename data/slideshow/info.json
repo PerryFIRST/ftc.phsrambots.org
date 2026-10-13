@@ -18,15 +18,6 @@
     "active": true
   },
   {
-    "href": "https://www.youtube.com/playlist?list=PLMiwgMvPJVNyQyo3v6IfAfSgRb1O_aLjw",
-    "img": "/data/slideshow/match.webp",
-    "fg": "/data/slideshow/match fore.webp",
-    "alt": "Live Match Photo",
-    "header": "Our Matches",
-    "description": "Watch our matches on YouTube",
-    "active": true
-  },
-  {
     "href": "https://www.youtube.com/@PHSRambots",
     "img": "/data/slideshow/banner.webp",
     "fg":"/data/slideshow/banner fore.webp",
